@@ -50,4 +50,4 @@ Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 
 credits
-background image: https://static.vecteezy.com/system/resources/previews/006/589/451/original/3d-rendering-podium-colorful-pastel-background-clouds-and-weather-with-empty-space-for-kids-or-baby-product-free-vector.jpg
+background image: https://static.vecteezy.com/system/resources/previews/006/548/320/non_2x/abstract-background-scene-for-product-display-3d-rendering-premium-free-vector.jpg

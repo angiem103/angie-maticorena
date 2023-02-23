@@ -4,7 +4,7 @@ import React from "react";
 import "/styles/styles.css"
 
 function App () {
-  return <h1>Hello World</h1>
+  return <h1>Angie Maticorena</h1>
 }
 
 export default App;
