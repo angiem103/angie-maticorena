@@ -47,3 +47,7 @@
 Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 [<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
+
+credits
+background image: https://static.vecteezy.com/system/resources/previews/006/589/451/original/3d-rendering-podium-colorful-pastel-background-clouds-and-weather-with-empty-space-for-kids-or-baby-product-free-vector.jpg
