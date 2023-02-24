@@ -1,15 +1,33 @@
-/* body {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/006/548/320/non_2x/abstract-background-scene-for-product-display-3d-rendering-premium-free-vector.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-   } */
 
-   html, body {
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Pacifico&display=swap");
+   
+html, body {
     height: 100%;
+    color: white;
+    font-family: 'Lato';
   }
+
   body {
     margin: 0;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/006/548/320/non_2x/abstract-background-scene-for-product-display-3d-rendering-premium-free-vector.jpg");
+    background-image: url("file:///Users/angiematicorena/Pictures/abstract-background-scene-for-product-display-3d-rendering-premium-free-vector.jpeg");
     background-size: cover;
-    background-position: right;
+    background-position: left;
   }
+
+  #introduction{
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  #name {
+    font-family:'Pacifico';
+    font-size: 60px;
+    margin: 0;
+  }
+
+  .title {
+    padding-top: 10px;
+    font-size: 27px;
+    margin: 0;
+  }
+
