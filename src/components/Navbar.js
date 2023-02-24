@@ -1,15 +1,15 @@
 import React from "react";
-import { Link} from "@reach/router";
+import { Link } from "gatsby";
 
 function Navbar() {
 
     return (
-        <div id="navbar">
+        <nav id="navbar">
             <Link to="/">Home</Link>
-            <Link to="about">About Me</Link>
+            <Link to="/about">About Me</Link>
             <Link to="projects">Projects</Link>
             <Link to="contactme">Contact Me</Link>
-        </div>
+        </nav>
     )
 
 }

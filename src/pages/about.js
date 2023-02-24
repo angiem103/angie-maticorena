@@ -1,6 +1,13 @@
 import React from "react";
+import Layout from "../components/Layout";
 
-export default function About() {
-    return <h1>I like Flowers</h1>
+function About() {
+    return (
+        <Layout>
+         <h1>I like Flowers</h1>
+        </Layout>
+    )
 };
+
+export default About;
 
