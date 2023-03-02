@@ -1,44 +1,112 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef:wght@700&family=Pacifico&display=swap");
    
 html, body {
     height: 100%;
-    color: white;
-    font-family: 'Lato';
+    color: #feb5b5;
+    font-family: 'Alef';
   }
 
-  body {
-    margin: 0;
-    background-image: url("file:///Users/angiematicorena/Pictures/abstract-background-scene-for-product-display-3d-rendering-premium-free-vector.jpeg");
-    background-size: cover;
-    background-position: left;
-  }
+body {
+  margin: 0;
+  background-image: url("file:///Users/angiematicorena/Downloads/Green%20Peach%20Minimal%20Organizer%20Desktop%20Wallpaper.png");
+  background-size: cover;
+  background-position: right;
+}
 
-  #introduction{
-    padding-top: 10px;
-  }
+#introduction{
+  padding-top: 10px;
+}
 
-  #name {
-    font-family:'Pacifico';
-    font-size: 60px;
-    text-align: center;
-    margin: 0;
-  }
+#name {
+  font-family:'Pacifico';
+  font-size: 70px;
+  text-align: left;
+  margin-top: -12px;
+  margin-bottom: 1px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  margin-left: 7%;
+}
 
-  .title {
-    padding-top: 10px;
-    font-size: 26px;
-    text-align: center;
-    margin: 0;
-  }
+.title {
+  padding-top: 10px;
+  font-size: 26px;
+  text-align: left;
+  margin: 0;
+  text-shadow: -0.8px 0 white, 0 0.8px white, 0.8px 0 white, 0 -0.8px white;
+  margin-left: 7%;
+}
 
-  #navbar {
-    margin-left: 20%;
-    margin-top: 100px;
-    font-size: 25px;
-  }
+#navbar {
+  margin-left: 7%;
+  margin-top: 60px;
+  font-size: 25px;
+}
 
-  a {
-    display: block;
+a {
+  display: block;
+  width: 190px;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s all ease;
+  background: linear-gradient(135deg, #f4d0c5, #f8adbc);
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 22px;
+  border: 0.07rem solid #fff;
+}
+
+a:hover {
+  box-shadow: 0 2px 5px rgb(0, 0, 0 ,0.6);
+  transform: scale(1.2);
+}
+
+#navsec {
+  display: flex;
+}
+
+#container {
+  overflow: hidden;
+  margin-left: 7%;
+  width: 800px;
+  height: 400px;
+  margin-top: 60px;
+  position: center;
+  font-size: 6.2rem;
+  animation: pulsate 1.7s infinite alternate;  
+  border: 0.2rem solid rgb(244, 237, 237);
+  border-radius: 2rem;
+  padding: 0.4em;
+}
+
+@keyframes pulsate {
+    
+  100% {
+
+      box-shadow:
+      0 0 4px rgb(244, 237, 237),
+      0 0 11px rgb(244, 237, 237),
+      0 0 19px rgb(244, 237, 237),
+      0 0 100px #f8adad,
+      0 0 150px #f8adad,
+      0 0 200px #f8adad;
+  
   }
+  
+  0% {
+
+    box-shadow:
+    0 0 2px rgb(244, 237, 237),
+    0 0 4px rgb(244, 237, 237),
+    0 0 6px rgb(244, 237, 237),
+    0 0 45px #f4d0c5,
+    0 0 55px #f4d0c5,
+    0 0 70px #f4d0c5,
+    0 0 80px #f4d0c5;
+
+}
+}
 
