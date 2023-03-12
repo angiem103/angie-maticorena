@@ -1,19 +1,20 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLinkedin, faSquareGithub } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin, faSquareGithub, faMedium } from "@fortawesome/free-brands-svg-icons"
 import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Links() {
     return (
-        <div className="socialmedia">
-            <a href="https://www.linkedin.com/in/angiematicorena">
+        <div id="socialmedia">
+            <a href="https://www.linkedin.com/in/angiematicorena" className="icon">
                 <FontAwesomeIcon icon={faLinkedin} size="3x"/>
             </a>
-            &nbsp;
-            < a href="https://github.com/angiem103">
+            < a href="https://github.com/angiem103" className="icon">
                 <FontAwesomeIcon icon={faSquareGithub} size="3x"/>
             </a>
-            &nbsp;
-            <a href="mailto:amaticorena3@gmail.com">
+            < a href="https://medium.com/@amaticorena103" className="icon">
+                <FontAwesomeIcon icon={faMedium} size="3x"/>
+            </a>
+            <a href="mailto:amaticorena3@gmail.com" className="icon">
                 <FontAwesomeIcon icon={faSquareEnvelope} size="3x"/>
             </a>
         </div>

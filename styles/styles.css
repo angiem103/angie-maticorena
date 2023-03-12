@@ -1,10 +1,10 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&f&display=swap");
    
 html, body {
     height: 100%;
     color: #ee9197;
-    font-family: 'Montserrat';
+    font-family: 'Amatic SC';
   }
 
 body {
@@ -15,23 +15,25 @@ body {
 }
 
 #introduction{
-  padding-top: 10px;
-  width: 50%;
+  padding-top: 30px;
+  width: 80%;
+  transform: translateX(50%);
+	animation: slide-in-anim 1.5s ease-out forwards;
 }
 
+
 #name {
-  font-family:'Pacifico';
-  font-size: 70px;
+  font-family:'Amatic SC';
+  font-size: 90px;
   text-align: left;
   margin-top: -12px;
   margin-bottom: 1px;
-  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
   margin-left: 7%;
+  padding: 10px;
 }
 
 .title {
-  padding-top: 10px;
-  font-size: 26px;
+  font-size: 36px;
   text-align: left;
   margin: 0;
   margin-left: 7%;
@@ -39,7 +41,7 @@ body {
 
 #navbar {
   margin-left: 7%;
-  margin-top: 60px;
+  margin-top: 40px;
   font-size: 25px;
 }
 
@@ -55,11 +57,13 @@ body {
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
-  font-size: 22px;
+  font-size: 24px;
   border: 0.07rem solid #fff;
+  transform: translateY(200%);
+  animation: slide-up-anim 1.5s ease-out forwards;
 }
 
-a:hover {
+a.tabs:hover {
   box-shadow: 0 2px 5px rgb(0, 0, 0 ,0.6);
   transform: scale(1.2);
 }
@@ -73,46 +77,65 @@ a:hover {
   margin-left: 7%;
   width: 800px;
   height: 400px;
-  margin-top: 60px;
+  margin-top: 20px;
   position: center;
   font-size: 6.2rem;
-  /* animation: pulsate 1.7s infinite alternate;  
-  border: 0.2rem solid rgb(244, 237, 237);
-  border-radius: 2rem; */
   padding: 0.4em;
 }
 
 #socialmedia {
-  padding-top: 60px;
+  padding-top: 35px;
   margin-left: auto; 
-  margin-right: 7%;
+  margin-right: 3%;
+  text-align: center;
+  width: fit-content;
+  animation: fadeIn 2s;
 }
 
-@keyframes pulsate {
-    
-  100% {
-
-      box-shadow:
-      0 0 4px rgb(244, 237, 237),
-      0 0 11px rgb(244, 237, 237),
-      0 0 19px rgb(244, 237, 237),
-      0 0 100px #f8adad,
-      0 0 150px #f8adad,
-      0 0 200px #f8adad;
-  
-  }
-  
-  0% {
-
-    box-shadow:
-    0 0 2px rgb(244, 237, 237),
-    0 0 4px rgb(244, 237, 237),
-    0 0 6px rgb(244, 237, 237),
-    0 0 45px #f4d0c5,
-    0 0 55px #f4d0c5,
-    0 0 70px #f4d0c5,
-    0 0 80px #f4d0c5;
-
+a {
+  color:inherit;
 }
+
+.icon {
+  padding: 6px
 }
+
+@keyframes slide-in-anim {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(-2.5%);
+	}
+	75% {
+		transform: translateX(-3.5%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(-1.5%);
+	}
+}
+
+@keyframes slide-up-anim {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		transform: translateY(-20%);
+	}
+	75% {
+		transform: translateY(-25%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 
