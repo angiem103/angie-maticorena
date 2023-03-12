@@ -3,7 +3,7 @@
    
 html, body {
     height: 100%;
-    color: #feb5b5;
+    color: #ee9197;
     font-family: 'Alef';
   }
 
@@ -16,6 +16,7 @@ body {
 
 #introduction{
   padding-top: 10px;
+  width: 50%;
 }
 
 #name {
@@ -24,7 +25,7 @@ body {
   text-align: left;
   margin-top: -12px;
   margin-bottom: 1px;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
   margin-left: 7%;
 }
 
@@ -33,7 +34,6 @@ body {
   font-size: 26px;
   text-align: left;
   margin: 0;
-  text-shadow: -0.8px 0 white, 0 0.8px white, 0.8px 0 white, 0 -0.8px white;
   margin-left: 7%;
 }
 
@@ -50,7 +50,7 @@ a {
   padding: 10px;
   border-radius: 10px;
   transition: 0.3s all ease;
-  background: linear-gradient(135deg, #f4d0c5, #f8adbc);
+  background: linear-gradient(135deg, #f4d0c5, #ee9197);
   color:white;
   text-decoration: none;
   text-align: center;
@@ -64,7 +64,7 @@ a:hover {
   transform: scale(1.2);
 }
 
-#navsec {
+.layout {
   display: flex;
 }
 
@@ -76,10 +76,16 @@ a:hover {
   margin-top: 60px;
   position: center;
   font-size: 6.2rem;
-  animation: pulsate 1.7s infinite alternate;  
+  /* animation: pulsate 1.7s infinite alternate;  
   border: 0.2rem solid rgb(244, 237, 237);
-  border-radius: 2rem;
+  border-radius: 2rem; */
   padding: 0.4em;
+}
+
+#socialmedia {
+  padding-top: 60px;
+  margin-left: auto; 
+  margin-right: 7%;
 }
 
 @keyframes pulsate {
