@@ -5,11 +5,17 @@ import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Links() {
     return (
         <div className="socialmedia">
-            <FontAwesomeIcon icon={faLinkedin} size="3x"/>
+            <a href="https://www.linkedin.com/in/angiematicorena">
+                <FontAwesomeIcon icon={faLinkedin} size="3x"/>
+            </a>
             &nbsp;
-            <FontAwesomeIcon icon={faSquareGithub} size="3x"/>
+            < a href="https://github.com/angiem103">
+                <FontAwesomeIcon icon={faSquareGithub} size="3x"/>
+            </a>
             &nbsp;
-            <FontAwesomeIcon icon={faSquareEnvelope} size="3x"/>
+            <a href="mailto:amaticorena3@gmail.com">
+                <FontAwesomeIcon icon={faSquareEnvelope} size="3x"/>
+            </a>
         </div>
     );
 };

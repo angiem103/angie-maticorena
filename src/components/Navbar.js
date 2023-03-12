@@ -4,11 +4,11 @@ import { Link } from "gatsby";
 function Navbar() {
 
     return (
-        <nav id="navbar">
-            <Link to="/">Home</Link>
-            <Link to="/about">About Me</Link>
-            <Link to="projects">Projects</Link>
-            <Link to="contactme">Contact Me</Link>
+        <nav id="navbar" >
+            <Link to="/" className="tabs">Home</Link>
+            <Link to="/about" className="tabs">About Me</Link>
+            <Link to="projects" className="tabs">Projects</Link>
+            <Link to="contactme" className="tabs">Contact Me</Link>
         </nav>
     )
 

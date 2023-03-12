@@ -1,10 +1,10 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Alef:wght@700&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pacifico&display=swap");
    
 html, body {
     height: 100%;
     color: #ee9197;
-    font-family: 'Alef';
+    font-family: 'Montserrat';
   }
 
 body {
@@ -43,7 +43,7 @@ body {
   font-size: 25px;
 }
 
-a {
+.tabs {
   display: block;
   width: 190px;
   margin: 20px 0;
