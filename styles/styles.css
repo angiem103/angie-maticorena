@@ -5,6 +5,7 @@ html, body {
     height: 100%;
     color: #ee9197;
     font-family: 'Amatic SC';
+    animation-iteration-count: 1
   }
 
 body {
@@ -77,9 +78,9 @@ a.tabs:hover {
   margin-left: 7%;
   width: 800px;
   height: 400px;
-  margin-top: 20px;
   position: center;
-  font-size: 6.2rem;
+  font-size: 20px;
+  text-align: center;
   padding: 0.4em;
 }
 
@@ -98,6 +99,10 @@ a {
 
 .icon {
   padding: 6px
+}
+
+#project {
+  display: flex;
 }
 
 @keyframes slide-in-anim {

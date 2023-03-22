@@ -4,11 +4,11 @@ import "/styles/styles.css";
 
 function App () {
   return (
-    <Layout>
+
       <div id="introduction">
-        <h3></h3>
+        <h3>Hello World</h3>
       </div>
-    </Layout>
+
   );
 };
 

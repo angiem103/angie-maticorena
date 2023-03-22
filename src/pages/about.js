@@ -3,9 +3,9 @@ import Layout from "../components/Layout";
 
 function About() {
     return (
-        <Layout>
-         <h1>I like Flowers</h1>
-        </Layout>
+
+         <h1>About Me</h1>
+
     )
 };
 
