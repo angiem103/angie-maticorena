@@ -12,10 +12,10 @@ function Projects() {
                     <StaticImage src="../images/lotuslucy.png"       placeholder="blurred"
                     className="projectimg"/>
                     <div style={{padding: 10}}>
-                        < a href="https://github.com/angiem103" className="icon">
+                        < a href="https://github.com/angiem103/lotus-lucy" className="icon">
                             <FontAwesomeIcon icon={faSquareGithub} size="2x" />
                         </a>
-                        < a href="https://github.com/angiem103" className="icon">
+                        < a href="https://youtu.be/Yzg9UFPxxgU" className="icon">
                             <FontAwesomeIcon icon={faSquareYoutube} size="2x"/>
                         </a>
                     </div>
@@ -26,10 +26,10 @@ function Projects() {
                     transformOptions={{fit: "outside"}}
                     className="projectimg"/>
                     <div style={{padding: 10}}>
-                        < a href="https://github.com/angiem103" className="icon">
+                        < a href="https://github.com/angiem103/berry-social" className="icon">
                             <FontAwesomeIcon icon={faSquareGithub} size="2x" />
                         </a>
-                        < a href="https://github.com/angiem103" className="icon">
+                        < a href="https://youtu.be/-jhu7HsNRuc" className="icon">
                              <FontAwesomeIcon icon={faSquareYoutube} size="2x"/>
                         </a>
                     </div>
