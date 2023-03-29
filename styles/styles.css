@@ -1,19 +1,20 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&f&display=swap");
    
-html, body {
-    height: 100%;
+html {
     color: #ee9197;
     font-family: 'Amatic SC';
-    animation-iteration-count: 1
+    animation-iteration-count: 1;
+    background: url("file:///Users/angiematicorena/Downloads/Green%20Peach%20Minimal%20Organizer%20Desktop%20Wallpaper.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
   }
 
 body {
-  margin: 0;
-  background-image: url("file:///Users/angiematicorena/Downloads/Green%20Peach%20Minimal%20Organizer%20Desktop%20Wallpaper.png");
-  background-size: cover;
-  background-position: right;
-  overflow: hidden;
+  margin: 0 auto;
+  overflow: auto;
 }
 
 #introduction{
@@ -21,7 +22,7 @@ body {
   transform: translateX(50%);
 	animation: slide-in-anim 1.5s ease-out forwards;
   position: relative;
-  padding-top: 20px;
+  padding-top: 30px;
   left: 5%;
 }
 
@@ -78,8 +79,7 @@ a.tabs:hover {
 
 #container {
   margin-left: 5%;
-  width: 900px;
-  height: 800px;
+  height: 700px;
   position: center;
   font-size: 20px;
   text-align: center;
@@ -119,12 +119,33 @@ a {
 }
 
 .resume {
-  margin:60px;
-  padding:5px;
-  width: 800px;
-  height: 500px;
+  margin-top: 5px;
+  margin-left: 40px;
+  width: 900px;
+  height: 600px;
+  text-align: center;
+  position:center;
+}
+
+.pdf-container {
   overflow: auto;
-  text-align:justify;
+  width: 900px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+#resume-btn {
+  display: block;
+  width: 100px;
+  margin: 20px 43%;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f4d0c5, #ee9197);
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  border: 0.07rem solid #fff;
 }
 
 @keyframes slide-in-anim {
