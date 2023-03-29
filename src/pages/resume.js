@@ -4,20 +4,21 @@ import packageJson from "/package.json"
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 
-export default function Resume(){ 
+function Resume(){ 
 
     const pdfjsVersion = packageJson.dependencies['pdfjs-dist'];
-    return(
+
+    return (
         <div className="resume" >
             <h1>Resume</h1>   
-            <div className="pdf-container" >
-
+                <div className="pdf-container" >
                     <Worker workerUrl={`https://unpkg.com/pdfjs-dist@${pdfjsVersion}/build/pdf.worker.min.js`} >
                         <Viewer fileUrl={PDF} />  
-
                     </Worker>       
-            </div>
+                </div>
             <a href={PDF} type="button" id="resume-btn" target="_blank"  rel="noreferrer">View Resume</a> 
         </div>
     )
-}
+};
+
+export default Resume;
