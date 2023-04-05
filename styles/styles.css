@@ -152,6 +152,27 @@ a {
 
 .aboutme {
   animation: fadeIn 1.5s;
+  display: flex;
+  margin-left: 60px;
+}
+
+#about-me {
+  font-family:'Gill Sans';
+  font-weight: 600;
+  text-align: end;
+  width: 40%;
+  color: #eb9096;  
+  padding-right: 30px;
+  margin-top: 45px;
+}
+
+#angie {
+  height: 550px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 16px #353434;
+  margin: 30px;
+  object-position: top;
 }
 
 @keyframes slide-in-anim {
