@@ -154,6 +154,7 @@ a {
   animation: fadeIn 1.5s;
   display: flex;
   margin-left: 60px;
+  position:relative;
 }
 
 #about-me {
