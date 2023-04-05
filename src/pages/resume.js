@@ -6,13 +6,15 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 
 function Resume(){ 
 
-    const pdfjsVersion = packageJson.dependencies['pdfjs-dist'];
+    
+const pdfjsVersion = packageJson.dependencies['pdfjs-dist'];
+console.log(pdfjsVersion)
 
     return (
         <div className="resume" >
             <h1>Resume</h1>   
                 <div className="pdf-container" >
-                    <Worker workerUrl={`https://unpkg.com/pdfjs-dist@${pdfjsVersion}/build/pdf.worker.min.js`} >
+                <Worker workerUrl={`https://unpkg.com/pdfjs-dist@${pdfjsVersion}/build/pdf.worker.min.js`}>
                         <Viewer fileUrl={PDF} />  
                     </Worker>       
                 </div>
