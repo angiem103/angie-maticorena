@@ -151,10 +151,9 @@ a {
 }
 
 .aboutme {
-  animation: fadeIn 1.5s;
   display: flex;
-  margin-left: 60px;
   position:relative;
+  animation: fadeIn 1.5s;
 }
 
 #about-me {
@@ -167,7 +166,7 @@ a {
   margin-top: 45px;
 }
 
-#angie {
+.angie {
   height: 550px;
   width: 400px;
   border-radius: 10px;
