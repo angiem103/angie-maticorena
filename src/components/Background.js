@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import BackgroundImage from 'gatsby-background-image'
 import Layout from './Layout'
 
-const BackgroundSection = ({ className }) => {
+const BackgroundSection = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -24,7 +24,6 @@ const BackgroundSection = ({ className }) => {
   return (
     <BackgroundImage
       Tag="section"
-      className={className}
       fluid={imageData}
     >
       <Layout/>
@@ -33,4 +32,4 @@ const BackgroundSection = ({ className }) => {
 }
 
 
-export default BackgroundSection
+export default BackgroundSection;

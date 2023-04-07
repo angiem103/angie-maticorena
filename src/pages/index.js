@@ -10,6 +10,7 @@ function App () {
         <StaticImage src="../images/angie.png" placeholder="blurred" id="angie"/>
       </div>
 
+
   );
 };
 
