@@ -157,13 +157,16 @@ a {
 }
 
 #about-me {
-  font-family:'Gill Sans';
-  font-weight: 600;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  line-height: 25pt;
   text-align: end;
-  width: 40%;
-  color: #eb9096;  
+  width: 35%;
+  color: #e47373;  
   padding-right: 30px;
   margin-top: 45px;
+  margin-left: 50px;
+  padding-top: 50px;
 }
 
 .angie {
