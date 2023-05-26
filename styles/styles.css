@@ -175,7 +175,7 @@ a {
   border-radius: 10px;
   box-shadow: 8px 8px 16px #353434;
   margin: 30px;
-  object-position: top;
+  object-position: bottom;
 }
 
 @keyframes slide-in-anim {
