@@ -18,7 +18,6 @@ const BackgroundSection = () => {
     `
   )
 
-  // Set ImageData.
   const imageData = data.desktop.childImageSharp.fluid
 
   return (
